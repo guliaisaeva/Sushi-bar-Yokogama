@@ -1,0 +1,70 @@
+body {
+  font-family: Arial;
+}
+header {
+  text-align: center;
+}
+main {
+  text-align: justify;
+}
+footer {
+  text-align: right;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32pt;
+  text-align: center;
+  font-weight: normal;
+}
+p {
+  font-size: 14pt !important;
+  text-align: justify;
+}
+
+p.greeting {
+  font-size: 24pt;
+  text-align: right;
+}
+
+.advertising {
+  font-size: 12pt;
+  margin-left: 30pt;
+  margin-top: 5pt;
+  margin: bottom 5pt;
+}
+.bigger {
+  font-size: 16pt;
+}
+table.pricelist th,
+table.pricelist td {
+  border: grey thin solid;
+  padding: 4px;
+}
+table.catalog td {
+  border-top: black thin dotted;
+  border-bottom: black thin dotted;
+  padding: 10px;
+}
+table.catalog img {
+  width: 200px;
+}
+table.pricelist thead th {
+  color: white;
+  background-color: grey;
+}
+tfoot {
+  font-style: italic;
+}
+nav {
+  float: left;
+  width: 150px;
+  margin: 10px 30px 10px 0px;
+  padding: 10px;
+  border: black medium double;
+  border-radius: 10px;
+}
+nav div {
+  font-size: 20pt;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
