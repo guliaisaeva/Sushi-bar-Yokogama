@@ -39,23 +39,28 @@
           ><br />
           <input type="time" name="time" id="time" required />
         </p>
+        <fieldset>
+          <legend>Укажите сведения о Вас и Вашей компании</legend>
+          <p>
+            <label for="cnt">На сколько человек заказывается столик?</label
+            ><br />
+            <input type="radio" name="cnt" id="cnt" value="1" /> 1
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="cnt" id="cnt" value="2" /> 2
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="cnt" id="cnt" value="3" /> 3
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="cnt" id="cnt" value="more" /> 3 и более
+            &nbsp;&nbsp;&nbsp;
+          </p>
+
+          <p>
+            <input type="checkbox" name="children" value="*" />Среди клиентов
+            будут дети
+          </p>
+        </fieldset>
         <p>
-          <label for="cnt">На сколько человек заказывается столик?</label><br />
-          <input type="radio" name="cnt" id="cnt" value="1" /> 1
-          &nbsp;&nbsp;&nbsp;
-          <input type="radio" name="cnt" id="cnt" value="2" /> 2
-          &nbsp;&nbsp;&nbsp;
-          <input type="radio" name="cnt" id="cnt" value="3" /> 3
-          &nbsp;&nbsp;&nbsp;
-          <input type="radio" name="cnt" id="cnt" value="more" /> 3 и более
-          &nbsp;&nbsp;&nbsp;
-        </p>
-        <p>
-          <input type="checkbox" name="children" value="*" />Среди клиентов
-          будут дети
-        </p>
-        <p>
-          <input type="submit" />
+          <input type="submit" value="Заказать" />
         </p>
       </form>
     </main>
